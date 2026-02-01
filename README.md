@@ -1,4 +1,4 @@
-# Number Theoretic Accelerated Learning of Physics-Informed Neural Networks
+# Number Theoretic Accelerated Learning of Physics-Informed Neural Networks (AAAI 2025)
 
 Physics-informed neural networks solve partial differential equations by training neural networks. Since this method approximates infinite-dimensional PDE solutions with finite collocation points, minimizing discretization errors by selecting suitable points is essential for accelerating the learning process. Inspired by number theoretic methods for numerical analysis, we introduce good lattice training and periodization tricks, which ensure the conditions required by the theory. Our experiments demonstrate that GLT requires 2-7 times fewer collocation points, resulting in lower computational cost, while achieving competitive performance compared to typical sampling methods.
 

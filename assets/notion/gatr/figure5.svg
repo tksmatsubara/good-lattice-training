@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="760" viewBox="0 0 980 760">
+<style>text{font-family:Arial,sans-serif;fill:#222} .small{font-size:18px} .med{font-size:20px} .big{font-size:24px;font-weight:bold} .axis{stroke:#333;stroke-width:2} .grid{stroke:#bbb;stroke-width:1;stroke-opacity:.45} .tick{stroke:#333;stroke-width:2}</style>
+<rect width="100%" height="100%" fill="white"/>
+<text class="big" x="490" y="30" text-anchor="middle">Figure 5: Computational cost and scaling</text>
+<text class="big" x="517.5" y="47" text-anchor="middle">Figure 5a: Peak GPU memory</text>
+<line class="axis" x1="85" y1="315" x2="950" y2="315"/>
+<line class="axis" x1="85" y1="65" x2="85" y2="315"/>
+<line class="grid" x1="85.0" y1="65" x2="85.0" y2="315"/>
+<line class="tick" x1="85.0" y1="315" x2="85.0" y2="323"/>
+<text class="small" x="85.0" y="341" text-anchor="middle">8</text>
+<line class="grid" x1="208.6" y1="65" x2="208.6" y2="315"/>
+<line class="tick" x1="208.6" y1="315" x2="208.6" y2="323"/>
+<text class="small" x="208.6" y="341" text-anchor="middle">16</text>
+<line class="grid" x1="332.1" y1="65" x2="332.1" y2="315"/>
+<line class="tick" x1="332.1" y1="315" x2="332.1" y2="323"/>
+<text class="small" x="332.1" y="341" text-anchor="middle">32</text>
+<line class="grid" x1="455.7" y1="65" x2="455.7" y2="315"/>
+<line class="tick" x1="455.7" y1="315" x2="455.7" y2="323"/>
+<text class="small" x="455.7" y="341" text-anchor="middle">64</text>
+<line class="grid" x1="579.3" y1="65" x2="579.3" y2="315"/>
+<line class="tick" x1="579.3" y1="315" x2="579.3" y2="323"/>
+<text class="small" x="579.3" y="341" text-anchor="middle">128</text>
+<line class="grid" x1="702.9" y1="65" x2="702.9" y2="315"/>
+<line class="tick" x1="702.9" y1="315" x2="702.9" y2="323"/>
+<text class="small" x="702.9" y="341" text-anchor="middle">256</text>
+<line class="grid" x1="826.4" y1="65" x2="826.4" y2="315"/>
+<line class="tick" x1="826.4" y1="315" x2="826.4" y2="323"/>
+<text class="small" x="826.4" y="341" text-anchor="middle">512</text>
+<line class="grid" x1="950.0" y1="65" x2="950.0" y2="315"/>
+<line class="tick" x1="950.0" y1="315" x2="950.0" y2="323"/>
+<text class="small" x="950.0" y="341" text-anchor="middle">1024</text>
+<line class="grid" x1="85" y1="315.0" x2="950" y2="315.0"/>
+<line class="tick" x1="77" y1="315.0" x2="85" y2="315.0"/>
+<text class="small" x="71" y="321.0" text-anchor="end">0.1</text>
+<line class="grid" x1="85" y1="257.6" x2="950" y2="257.6"/>
+<line class="tick" x1="77" y1="257.6" x2="85" y2="257.6"/>
+<text class="small" x="71" y="263.6" text-anchor="end">0.3</text>
+<line class="grid" x1="85" y1="194.8" x2="950" y2="194.8"/>
+<line class="tick" x1="77" y1="194.8" x2="85" y2="194.8"/>
+<text class="small" x="71" y="200.8" text-anchor="end">1</text>
+<line class="grid" x1="85" y1="137.4" x2="950" y2="137.4"/>
+<line class="tick" x1="77" y1="137.4" x2="85" y2="137.4"/>
+<text class="small" x="71" y="143.4" text-anchor="end">3</text>
+<line class="grid" x1="85" y1="74.5" x2="950" y2="74.5"/>
+<line class="tick" x1="77" y1="74.5" x2="85" y2="74.5"/>
+<text class="small" x="71" y="80.5" text-anchor="end">10</text>
+<polyline points="85.0,213.4 208.6,206.4 332.1,194.8 455.7,181.1 579.3,161.2 702.9,134.0 826.4,102.1 950.0,67.2" fill="none" stroke="#3c9a0a" stroke-width="3"/>
+<circle cx="85.0" cy="213.4" r="4" fill="#3c9a0a"/>
+<circle cx="208.6" cy="206.4" r="4" fill="#3c9a0a"/>
+<circle cx="332.1" cy="194.8" r="4" fill="#3c9a0a"/>
+<circle cx="455.7" cy="181.1" r="4" fill="#3c9a0a"/>
+<circle cx="579.3" cy="161.2" r="4" fill="#3c9a0a"/>
+<circle cx="702.9" cy="134.0" r="4" fill="#3c9a0a"/>
+<circle cx="826.4" cy="102.1" r="4" fill="#3c9a0a"/>
+<circle cx="950.0" cy="67.2" r="4" fill="#3c9a0a"/>
+<polyline points="85.0,267.2 208.6,261.2 332.1,249.6 455.7,231.0 579.3,203.2 702.9,170.2 826.4,134.0 950.0,95.4" fill="none" stroke="#e36c4b" stroke-width="3"/>
+<rect x="81.0" y="263.2" width="8" height="8" fill="#e36c4b"/>
+<rect x="204.6" y="257.2" width="8" height="8" fill="#e36c4b"/>
+<rect x="328.1" y="245.6" width="8" height="8" fill="#e36c4b"/>
+<rect x="451.7" y="227.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="575.3" y="199.2" width="8" height="8" fill="#e36c4b"/>
+<rect x="698.9" y="166.2" width="8" height="8" fill="#e36c4b"/>
+<rect x="822.4" y="130.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="946.0" y="91.4" width="8" height="8" fill="#e36c4b"/>
+<polyline points="85.0,164.1 208.6,158.6 332.1,149.0 455.7,137.4" fill="none" stroke="#a7a7d9" stroke-width="3"/>
+<polygon points="85.0,160.1 89.0,164.1 85.0,168.1 81.0,164.1" fill="#a7a7d9"/>
+<polygon points="208.6,154.6 212.6,158.6 208.6,162.6 204.6,158.6" fill="#a7a7d9"/>
+<polygon points="332.1,145.0 336.1,149.0 332.1,153.0 328.1,149.0" fill="#a7a7d9"/>
+<polygon points="455.7,133.4 459.7,137.4 455.7,141.4 451.7,137.4" fill="#a7a7d9"/>
+<polyline points="85.0,151.3 208.6,144.9 332.1,130.9 455.7,112.8" fill="none" stroke="#6f6a9a" stroke-width="3"/>
+<polygon points="85.0,146.8 89.5,155.8 80.5,155.8" fill="#6f6a9a"/>
+<polygon points="208.6,140.4 213.1,149.4 204.1,149.4" fill="#6f6a9a"/>
+<polygon points="332.1,126.4 336.6,135.4 327.6,135.4" fill="#6f6a9a"/>
+<polygon points="455.7,108.3 460.2,117.3 451.2,117.3" fill="#6f6a9a"/>
+<text class="med" x="517.5" y="369" text-anchor="middle">Number of items</text>
+<text class="med" transform="translate(30,190.0) rotate(-90)" text-anchor="middle">Peak GPU memory [GiB]</text>
+<text class="big" x="517.5" y="392" text-anchor="middle">Figure 5b: Time per step</text>
+<line class="axis" x1="85" y1="660" x2="950" y2="660"/>
+<line class="axis" x1="85" y1="410" x2="85" y2="660"/>
+<line class="grid" x1="85.0" y1="410" x2="85.0" y2="660"/>
+<line class="tick" x1="85.0" y1="660" x2="85.0" y2="668"/>
+<text class="small" x="85.0" y="686" text-anchor="middle">8</text>
+<line class="grid" x1="208.6" y1="410" x2="208.6" y2="660"/>
+<line class="tick" x1="208.6" y1="660" x2="208.6" y2="668"/>
+<text class="small" x="208.6" y="686" text-anchor="middle">16</text>
+<line class="grid" x1="332.1" y1="410" x2="332.1" y2="660"/>
+<line class="tick" x1="332.1" y1="660" x2="332.1" y2="668"/>
+<text class="small" x="332.1" y="686" text-anchor="middle">32</text>
+<line class="grid" x1="455.7" y1="410" x2="455.7" y2="660"/>
+<line class="tick" x1="455.7" y1="660" x2="455.7" y2="668"/>
+<text class="small" x="455.7" y="686" text-anchor="middle">64</text>
+<line class="grid" x1="579.3" y1="410" x2="579.3" y2="660"/>
+<line class="tick" x1="579.3" y1="660" x2="579.3" y2="668"/>
+<text class="small" x="579.3" y="686" text-anchor="middle">128</text>
+<line class="grid" x1="702.9" y1="410" x2="702.9" y2="660"/>
+<line class="tick" x1="702.9" y1="660" x2="702.9" y2="668"/>
+<text class="small" x="702.9" y="686" text-anchor="middle">256</text>
+<line class="grid" x1="826.4" y1="410" x2="826.4" y2="660"/>
+<line class="tick" x1="826.4" y1="660" x2="826.4" y2="668"/>
+<text class="small" x="826.4" y="686" text-anchor="middle">512</text>
+<line class="grid" x1="950.0" y1="410" x2="950.0" y2="660"/>
+<line class="tick" x1="950.0" y1="660" x2="950.0" y2="668"/>
+<text class="small" x="950.0" y="686" text-anchor="middle">1024</text>
+<line class="grid" x1="85" y1="660.0" x2="950" y2="660.0"/>
+<line class="tick" x1="77" y1="660.0" x2="85" y2="660.0"/>
+<text class="small" x="71" y="666.0" text-anchor="end">0.1</text>
+<line class="grid" x1="85" y1="579.2" x2="950" y2="579.2"/>
+<line class="tick" x1="77" y1="579.2" x2="85" y2="579.2"/>
+<text class="small" x="71" y="585.2" text-anchor="end">0.3</text>
+<line class="grid" x1="85" y1="490.8" x2="950" y2="490.8"/>
+<line class="tick" x1="77" y1="490.8" x2="85" y2="490.8"/>
+<text class="small" x="71" y="496.8" text-anchor="end">1</text>
+<line class="grid" x1="85" y1="410.0" x2="950" y2="410.0"/>
+<line class="tick" x1="77" y1="410.0" x2="85" y2="410.0"/>
+<text class="small" x="71" y="416.0" text-anchor="end">3</text>
+<polyline points="85.0,549.4 208.6,549.4 332.1,549.4 455.7,549.4 579.3,544.7 702.9,525.9 826.4,494.5 950.0,443.6" fill="none" stroke="#3c9a0a" stroke-width="3"/>
+<circle cx="85.0" cy="549.4" r="4" fill="#3c9a0a"/>
+<circle cx="208.6" cy="549.4" r="4" fill="#3c9a0a"/>
+<circle cx="332.1" cy="549.4" r="4" fill="#3c9a0a"/>
+<circle cx="455.7" cy="549.4" r="4" fill="#3c9a0a"/>
+<circle cx="579.3" cy="544.7" r="4" fill="#3c9a0a"/>
+<circle cx="702.9" cy="525.9" r="4" fill="#3c9a0a"/>
+<circle cx="826.4" cy="494.5" r="4" fill="#3c9a0a"/>
+<circle cx="950.0" cy="443.6" r="4" fill="#3c9a0a"/>
+<polyline points="85.0,653.0 208.6,653.0 332.1,653.0 455.7,653.0 579.3,635.3 702.9,602.0 826.4,552.8 950.0,502.7" fill="none" stroke="#e36c4b" stroke-width="3"/>
+<rect x="81.0" y="649.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="204.6" y="649.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="328.1" y="649.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="451.7" y="649.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="575.3" y="631.3" width="8" height="8" fill="#e36c4b"/>
+<rect x="698.9" y="598.0" width="8" height="8" fill="#e36c4b"/>
+<rect x="822.4" y="548.8" width="8" height="8" fill="#e36c4b"/>
+<rect x="946.0" y="498.7" width="8" height="8" fill="#e36c4b"/>
+<polyline points="85.0,528.3 208.6,514.9 332.1,487.2 455.7,447.5" fill="none" stroke="#a7a7d9" stroke-width="3"/>
+<polygon points="85.0,524.3 89.0,528.3 85.0,532.3 81.0,528.3" fill="#a7a7d9"/>
+<polygon points="208.6,510.9 212.6,514.9 208.6,518.9 204.6,514.9" fill="#a7a7d9"/>
+<polygon points="332.1,483.2 336.1,487.2 332.1,491.2 328.1,487.2" fill="#a7a7d9"/>
+<polygon points="455.7,443.5 459.7,447.5 455.7,451.5 451.7,447.5" fill="#a7a7d9"/>
+<polyline points="85.0,511.9 208.6,502.7 332.1,471.5 455.7,429.5" fill="none" stroke="#6f6a9a" stroke-width="3"/>
+<polygon points="85.0,507.4 89.5,516.4 80.5,516.4" fill="#6f6a9a"/>
+<polygon points="208.6,498.2 213.1,507.2 204.1,507.2" fill="#6f6a9a"/>
+<polygon points="332.1,467.0 336.6,476.0 327.6,476.0" fill="#6f6a9a"/>
+<polygon points="455.7,425.0 460.2,434.0 451.2,434.0" fill="#6f6a9a"/>
+<text class="med" x="517.5" y="714" text-anchor="middle">Number of items</text>
+<text class="med" transform="translate(30,535.0) rotate(-90)" text-anchor="middle">Time per step [s]</text>
+<line x1="90" y1="726" x2="116" y2="726" stroke="#3c9a0a" stroke-width="3"/>
+<circle cx="103" cy="726" r="4" fill="#3c9a0a"/>
+<text class="med" x="124" y="732">GATr</text>
+<line x1="300" y1="726" x2="326" y2="726" stroke="#e36c4b" stroke-width="3"/>
+<rect x="309" y="722" width="8" height="8" fill="#e36c4b"/>
+<text class="med" x="334" y="732">Transformer</text>
+<line x1="510" y1="726" x2="536" y2="726" stroke="#a7a7d9" stroke-width="3"/>
+<polygon points="523,721 528,726 523,731 518,726" fill="#a7a7d9"/>
+<text class="med" x="544" y="732">SEGNN</text>
+<line x1="720" y1="726" x2="746" y2="726" stroke="#6f6a9a" stroke-width="3"/>
+<polygon points="733,721 738,731 728,731" fill="#6f6a9a"/>
+<text class="med" x="754" y="732">SE(3)-Transformer</text>
+</svg>
